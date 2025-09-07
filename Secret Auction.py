@@ -1,6 +1,6 @@
-import art
+import art1
 answer = "yes"
-print(art.logo)
+print(art1.logo)
 print("Welcome to the secret auction program.")
 Secret_Auction = {}
 while answer == "yes":
@@ -19,4 +19,5 @@ for key in Secret_Auction:
         winner_name = key
 
 print(f"The winner is {winner_name} with a bid ${winner}")
+
 
